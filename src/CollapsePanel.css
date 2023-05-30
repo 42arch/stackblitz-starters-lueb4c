@@ -1,0 +1,15 @@
+.collapse_panel {
+}
+
+.collapse_header {
+  background-color: #eeeeee;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.collapse_content {
+  height: 0;
+  overflow: hidden;
+  border: 1px dashed gray;
+  transition: height ease 0.3s;
+}
